@@ -1,4 +1,4 @@
 run createTable.sql
-import data
+import data delimiter = [tab]
 run FK.sql
 run index.sql
